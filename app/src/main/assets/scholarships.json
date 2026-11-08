@@ -1,0 +1,1551 @@
+{
+  "schemaVersion": 1,
+  "scheduleAsOf": "2026-11-06",
+  "timeZone": "Asia/Jakarta",
+  "preferenceOptions": [
+    {
+      "id": "education_funding",
+      "label": "Bantuan pendidikan"
+    },
+    {
+      "id": "tuition_support",
+      "label": "Bantuan UKT"
+    },
+    {
+      "id": "monthly_funding",
+      "label": "Dana bulanan"
+    },
+    {
+      "id": "research_funding",
+      "label": "Dana tugas akhir atau riset"
+    },
+    {
+      "id": "project_funding",
+      "label": "Dana proyek"
+    },
+    {
+      "id": "mentoring",
+      "label": "Mentoring"
+    },
+    {
+      "id": "training",
+      "label": "Pelatihan"
+    },
+    {
+      "id": "leadership_development",
+      "label": "Pengembangan kepemimpinan"
+    },
+    {
+      "id": "career_development",
+      "label": "Persiapan karier"
+    },
+    {
+      "id": "internship_opportunity",
+      "label": "Kesempatan magang"
+    },
+    {
+      "id": "project_experience",
+      "label": "Pengalaman proyek"
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "SH28",
+      "name": "Hana Bank",
+      "provider": "KEB Hana Bank / PT Bank KEB Hana Indonesia",
+      "period": "2026/2027",
+      "registration": {
+        "statusAtSnapshot": "open_by_schedule",
+        "opensOn": null,
+        "closesOn": "2026-11-14",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": "https://simaster.ugm.ac.id/"
+      },
+      "summary": {
+        "about": "Program Hana Bank oleh KEB Hana Bank / PT Bank KEB Hana Indonesia.\nJenjang dalam data: S1.",
+        "benefits": [
+          {
+            "title": "Bantuan finansial",
+            "amountIdr": 10000000,
+            "amountKind": "stated",
+            "unitOrCoverage": "sekali",
+            "duration": "Program sampai Juli 2027",
+            "description": null,
+            "tags": [
+              "education_funding"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: UGM: prodi tertentu Fakultas Teknik dan MIPA",
+          "Jenjang: S1",
+          "Durasi/periode bantuan: Program sampai Juli 2027"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: S1\nSemester/angkatan/tahap: Angkatan 2025\nAkademik: IPK >3,00\nKampus/cakupan data: UGM: prodi tertentu Fakultas Teknik dan MIPA\nTeknik: TI, Elektro, Biomedis, Industri. MIPA: Ilmu Komputer, Statistika, Elektronika dan Instrumentasi, Matematika."
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Ekonomi: SKTM diminta; ambang penghasilan tidak disebut\nBeasiswa lain: Tidak menerima beasiswa lain\nWNI."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "items": [
+                "KTP/KTM/KK",
+                "SKTM",
+                "Transkrip",
+                "Formulir kampus",
+                "Aplikasi/rekomendasi Inggris disahkan fakultas"
+              ]
+          },
+          {
+            "key": "application",
+            "title": "Cara mendaftar",
+            "body": "Pendaftaran: https://simaster.ugm.ac.id/"
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Batas pendaftaran dalam data: 2026-11-14\nStatus tersimpan per 6 November 2026: Buka menurut jadwal resmi"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "degree",
+              "operator": "in",
+              "value": [
+                "S1"
+              ]
+            },
+            {
+              "field": "campus",
+              "operator": "eq",
+              "value": "UGM"
+            },
+            {
+              "field": "cohort",
+              "operator": "eq",
+              "value": 2025
+            },
+            {
+              "field": "gpa",
+              "operator": "gt",
+              "value": 3
+            },
+            {
+              "field": "otherScholarship",
+              "operator": "eq",
+              "value": false
+            },
+            {
+              "field": "citizenship",
+              "operator": "eq",
+              "value": "Indonesia"
+            },
+            {
+              "field": "major",
+              "operator": "in",
+              "value": [
+                "Teknologi Informasi",
+                "Teknik Elektro",
+                "Teknik Biomedis",
+                "Teknik Industri",
+                "Ilmu Komputer",
+                "Statistika",
+                "Elektronika dan Instrumentasi",
+                "Matematika"
+              ]
+            },
+            {
+              "field": "activeStudent",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Periksa SKTM dan kecocokan nama prodi dengan daftar resmi."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://ditmawa.ugm.ac.id/2026/10/beasiswa-hana-bank-tahun-akademik-2026-2027/",
+        "supportingUrls": [],
+        "sourceType": "Kampus",
+        "verificationNote": "Jadwal pengumuman diperiksa 6 November 2026; formulir belum diuji menerima aplikasi."
+      }
+    },
+    {
+      "id": "SH31",
+      "name": "Riset BAZNAS — tugas akhir D4/S1",
+      "provider": "BAZNAS RI",
+      "period": "2026",
+      "registration": {
+        "statusAtSnapshot": "open_by_schedule",
+        "opensOn": "2026-11-03",
+        "closesOn": "2026-11-11",
+        "closesAtLocal": "23:59",
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": "https://bazn.as/RisetTugasAkhir26"
+      },
+      "summary": {
+        "about": "Program Riset BAZNAS — tugas akhir D4/S1 oleh BAZNAS RI.\nJenjang dalam data: D4 / S1.",
+        "benefits": [
+          {
+            "title": "Riset tugas akhir",
+            "amountIdr": 4000000,
+            "amountKind": "stated",
+            "unitOrCoverage": "paket riset",
+            "duration": null,
+            "description": "Bukan uang saku bulanan",
+            "tags": [
+              "research_funding"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Mentoring dan workshop",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "nonfinansial",
+            "duration": null,
+            "description": "Penulisan ilmiah",
+            "tags": [
+              "mentoring",
+              "training"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: Mahasiswa aktif D4/S1; jalur tugas akhir umum dan MAZAWA",
+          "Jenjang: D4 / S1"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: D4 / S1\nSemester/angkatan/tahap: Sedang/akan mengerjakan tugas akhir\nAkademik: IPK ≥3,35; prodi minimal A/Unggul; kampus minimal B/Baik Sekali\nKampus/cakupan data: Mahasiswa aktif D4/S1; jalur tugas akhir umum dan MAZAWA\nProposal disetujui pembimbing."
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Beasiswa lain: Tidak boleh pendanaan ganda untuk objek yang sama\nWNI."
+        },
+        {
+          "key": "skillsExperience",
+          "title": "Kemampuan & pengalaman",
+          "body": "Kemiripan naskah ≤25% di luar daftar pustaka."
+        },
+        {
+          "key": "commitmentContinuation",
+          "title": "Komitmen & keberlanjutan",
+          "body": "Akad penerima, pembinaan dan acknowledgement BAZNAS."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "body": "Kelengkapan mengikuti panduan.",
+              "items": [
+                "KTP",
+                "Proposal",
+                "Rekomendasi kampus/pembimbing",
+                "Hasil cek kemiripan"
+              ]
+          },
+          {
+            "key": "application",
+            "title": "Cara mendaftar",
+            "body": "Unduh panduan, siapkan berkas, pilih formulir umum atau MAZAWA dan unggah dokumen.\nPendaftaran: https://bazn.as/RisetTugasAkhir26\nPanduan/template: https://bazn.as/PanduanBeasiswaRisetBAZNAS2026"
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Mulai: 2026-11-03\nBatas pendaftaran dalam data: 2026-11-11 23:59 WIB\nRegistrasi 3–11 November 2026. Tahap lanjutan belum diekstrak.\nStatus tersimpan per 6 November 2026: Buka menurut jadwal resmi"
+          }
+        ],
+        "officialGuideUrl": "https://bazn.as/PanduanBeasiswaRisetBAZNAS2026"
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "degree",
+              "operator": "in",
+              "value": [
+                "D4",
+                "S1"
+              ]
+            },
+            {
+              "field": "gpa",
+              "operator": "gte",
+              "value": 3.35
+            },
+            {
+              "field": "thesisStage",
+              "operator": "in",
+              "value": [
+                "akan_mengerjakan",
+                "sedang_mengerjakan"
+              ]
+            },
+            {
+              "field": "sameObjectOtherFunding",
+              "operator": "eq",
+              "value": false
+            },
+            {
+              "field": "programAccreditation",
+              "operator": "in",
+              "value": [
+                "A",
+                "Unggul"
+              ]
+            },
+            {
+              "field": "citizenship",
+              "operator": "eq",
+              "value": "Indonesia"
+            },
+            {
+              "field": "proposalApproved",
+              "operator": "eq",
+              "value": true
+            },
+            {
+              "field": "similarityWithoutReferences",
+              "operator": "lte",
+              "value": 0.25
+            },
+            {
+              "field": "activeStudent",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Periksa akreditasi kampus minimal B/Baik Sekali dan ketentuan tema riset.",
+          "Periksa akad, pembinaan, acknowledgement, dan ketentuan jalur."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://baznas.go.id/pendistribusian-show/telah-dibuka-beasiswa-riset-baznas-tahun-2026/7472",
+        "supportingUrls": [
+          "https://www.baznas.go.id/news-show/Beasiswa_Riset_BAZNAS_2026_Sasar_308_Penerima_Manfaat%2C_Ini_Cara_Daftarnya/4476"
+        ],
+        "sourceType": "Primer",
+        "verificationNote": "Ada ketegangan antara tema prioritas wajib dan peluang tema lain pada berita resmi. Periksa panduan sebelum membuat aturan tema. MAZAWA: https://bazn.as/RisetMAZAWA26"
+      }
+    },
+    {
+      "id": "SH32",
+      "name": "Sanders — Universitas Padjadjaran",
+      "provider": "PT Satustop Finansial Solusi",
+      "period": "2026",
+      "registration": {
+        "statusAtSnapshot": "open_by_schedule",
+        "opensOn": "2026-11-03",
+        "closesOn": "2026-11-20",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": "https://students.unpad.ac.id"
+      },
+      "summary": {
+        "about": "Program Sanders — Universitas Padjadjaran oleh PT Satustop Finansial Solusi.\nJenjang dalam data: S1.",
+        "benefits": [
+          {
+            "title": "Bantuan UKT",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "per semester",
+            "duration": "Sesuai kesepakatan",
+            "description": "Nominal belum dinyatakan",
+            "tags": [
+              "tuition_support"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Prioritas magang",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "kesempatan",
+            "duration": null,
+            "description": "Bukan jaminan bekerja",
+            "tags": [
+              "internship_opportunity"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Sertifikat",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "nonfinansial",
+            "duration": null,
+            "description": "Penerima beasiswa",
+            "tags": [],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: Unpad, program S1 Psikologi",
+          "Jenjang: S1",
+          "Durasi/periode bantuan: Sesuai kesepakatan"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: S1\nSemester/angkatan/tahap: Semester 4 atau 6\nAkademik: IPK >3,51\nKampus/cakupan data: Unpad, program S1 Psikologi"
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Ekonomi: Keluarga kurang mampu\nBeasiswa lain: Tidak sedang menerima beasiswa penuh lain\nBerkelakuan baik."
+        },
+        {
+          "key": "skillsExperience",
+          "title": "Kemampuan & pengalaman",
+          "body": "Aktif kegiatan mahasiswa/sosial."
+        },
+        {
+          "key": "commitmentContinuation",
+          "title": "Komitmen & keberlanjutan",
+          "body": "Semester 6 diharapkan bersedia magang; bukan dinyatakan wajib."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "body": "Daftar lengkap belum tercantum.",
+              "items": [
+                "Transkrip resmi",
+                "SKTM atau bukti penghasilan orang tua"
+              ]
+          },
+          {
+            "key": "application",
+            "title": "Cara mendaftar",
+            "body": "Ajukan melalui PACIS/portal mahasiswa Unpad.\nPendaftaran: https://students.unpad.ac.id"
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Mulai: 2026-11-03\nBatas pendaftaran dalam data: 2026-11-20\nStatus tersimpan per 6 November 2026: Buka menurut jadwal resmi"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "campus",
+              "operator": "eq",
+              "value": "Unpad"
+            },
+            {
+              "field": "degree",
+              "operator": "eq",
+              "value": "S1"
+            },
+            {
+              "field": "major",
+              "operator": "eq",
+              "value": "Psikologi"
+            },
+            {
+              "field": "semester",
+              "operator": "in",
+              "value": [
+                4,
+                6
+              ]
+            },
+            {
+              "field": "gpa",
+              "operator": "gt",
+              "value": 3.51
+            },
+            {
+              "field": "financialNeed",
+              "operator": "eq",
+              "value": true
+            },
+            {
+              "field": "otherFullScholarship",
+              "operator": "eq",
+              "value": false
+            },
+            {
+              "field": "activeStudent",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Konfirmasi cakupan semester 4/6 pada pengumuman kampus.",
+          "Periksa aktivitas mahasiswa/sosial dan ketentuan berkelakuan baik."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://beasiswa.unpad.ac.id/",
+        "supportingUrls": [],
+        "sourceType": "Primer",
+        "verificationNote": "Semester 4/6 dicatat sesuai pengumuman November; perlu konfirmasi kampus karena jadwal ganjil."
+      }
+    },
+    {
+      "id": "SH33",
+      "name": "Subsidi UKT UPZ UNS",
+      "provider": "UPZ Universitas Sebelas Maret",
+      "period": "Februari–Juli 2027",
+      "registration": {
+        "statusAtSnapshot": "open_by_schedule",
+        "opensOn": "2026-10-19",
+        "closesOn": "2026-11-30",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": "http://uns.id/DaftarSubsidiUKT2027"
+      },
+      "summary": {
+        "about": "Program Subsidi UKT UPZ UNS oleh UPZ Universitas Sebelas Maret.\nJenjang dalam data: S1 / Diploma; subjenjang diploma tidak dirinci.",
+        "benefits": [
+          {
+            "title": "Subsidi UKT",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "bantuan pendidikan",
+            "duration": "Februari–Juli 2027",
+            "description": "Nominal dan porsi subsidi belum dinyatakan",
+            "tags": [
+              "tuition_support"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: Mahasiswa UNS",
+          "Jenjang: S1 / Diploma; subjenjang diploma tidak dirinci",
+          "Durasi/periode bantuan: Februari–Juli 2027"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: S1 / Diploma; subjenjang diploma tidak dirinci\nSemester/angkatan/tahap: Minimal semester 2\nAkademik: IPK ≥3,25\nKampus/cakupan data: Mahasiswa UNS"
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Ekonomi: Wajib SKTM\nBeasiswa lain: Tidak menerima beasiswa lain"
+        },
+        {
+          "key": "commitmentContinuation",
+          "title": "Komitmen & keberlanjutan",
+          "body": "Bersedia menjadi relawan program sosial dan pemberdayaan UPZ."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "body": "Gabungkan dokumen dalam satu PDF.",
+              "items": [
+                "CV/foto",
+                "KTM",
+                "KK",
+                "SKTM",
+                "Foto rumah",
+                "Surat bebas beasiswa",
+                "Rekomendasi",
+                "Transkrip",
+                "Tagihan UKT",
+                "Komitmen relawan",
+                "Bukti tambahan bila ada"
+              ]
+          },
+          {
+            "key": "application",
+            "title": "Cara mendaftar",
+            "body": "Isi formulir daring dan unggah PDF gabungan.\nPendaftaran: http://uns.id/DaftarSubsidiUKT2027"
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Mulai: 2026-10-19\nBatas pendaftaran dalam data: 2026-11-30\nAdministrasi 7–11 Desember; wawancara 14–18 Desember 2026; hasil 5 Januari 2027.\nStatus tersimpan per 6 November 2026: Buka menurut jadwal resmi"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "campus",
+              "operator": "eq",
+              "value": "UNS"
+            },
+            {
+              "field": "semester",
+              "operator": "gte",
+              "value": 2
+            },
+            {
+              "field": "gpa",
+              "operator": "gte",
+              "value": 3.25
+            },
+            {
+              "field": "otherScholarship",
+              "operator": "eq",
+              "value": false
+            },
+            {
+              "field": "volunteerCommitment",
+              "operator": "eq",
+              "value": true
+            },
+            {
+              "field": "activeStudent",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Konfirmasi cakupan subjenjang Diploma dan periksa SKTM."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://upz.uns.ac.id/pendaftaran-program-beasiswa-subsidi-ukt-upz-uns-semester-februari-2027-juli-2027/",
+        "supportingUrls": [],
+        "sourceType": "Primer",
+        "verificationNote": "Jangan menerjemahkan Diploma otomatis menjadi semua jenjang; konfirmasi D4 bila diperlukan."
+      }
+    },
+    {
+      "id": "SH34",
+      "name": "DataPrint periode 4",
+      "provider": "DataPrint Indonesia",
+      "period": "2026 — periode 4",
+      "registration": {
+        "statusAtSnapshot": "open_by_schedule",
+        "opensOn": "2026-10-01",
+        "closesOn": "2026-11-30",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": "https://beasiswadataprint.com/"
+      },
+      "summary": {
+        "about": "Program DataPrint periode 4 oleh DataPrint Indonesia.\nJenjang dalam data: S1/D4 menurut sumber pendukung; laman syarat resmi belum dapat dibaca.",
+        "benefits": [
+          {
+            "title": "Bantuan pendidikan",
+            "amountIdr": 500000,
+            "amountKind": "stated",
+            "unitOrCoverage": "satu kali",
+            "duration": "Periode 4",
+            "description": "Nominal dari sumber sekunder; belum konfirmasi resmi",
+            "tags": [
+              "education_funding"
+            ],
+            "evidence": "secondary",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: Pelajar dan mahasiswa; dataset membatasi S1/D4",
+          "Jenjang: S1/D4 menurut sumber pendukung; laman syarat resmi belum dapat dibaca",
+          "Durasi/periode bantuan: Periode 4"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: S1/D4 menurut sumber pendukung; laman syarat resmi belum dapat dibaca\nKampus/cakupan data: Pelajar dan mahasiswa; dataset membatasi S1/D4"
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Kupon DataPrint tahun 2023–2026 berlaku."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "body": "Format video dan nominal bersumber sekunder, belum dikonfirmasi langsung.",
+              "items": [
+                "Formulir dan esai sesuai instruksi program"
+              ]
+          },
+          {
+            "key": "application",
+            "title": "Cara mendaftar",
+            "body": "Baca ketentuan, tema esai dan petunjuk pengisian; isi formulir resmi.\nPendaftaran: https://beasiswadataprint.com/"
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Mulai: 2026-10-01\nBatas pendaftaran dalam data: 2026-11-30\nPengumuman 7 Desember 2026.\nStatus tersimpan per 6 November 2026: Buka menurut jadwal resmi"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "validCouponYear",
+              "operator": "in",
+              "value": [
+                2023,
+                2024,
+                2025,
+                2026
+              ]
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Jenjang dan nominal masih perlu konfirmasi sumber primer. Cek persyaratan lengkap program."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://dataprint.co.id/beasiswa-dataprint-periode-4-tahun-2026-telah-dibuka/",
+        "supportingUrls": [
+          "https://jadibeasiswa.id/masih-dibuka-beasiswa-dataprint-2026-cek-syarat-dan-jadwal/"
+        ],
+        "sourceType": "Primer + sekunder",
+        "verificationNote": "Jadwal dari penyelenggara. Jenjang/nominal dari sumber sekunder; jangan mengaktifkan aturan yang belum terkonfirmasi."
+      }
+    },
+    {
+      "id": "SH38",
+      "name": "Inovasi Muda Scholarship",
+      "provider": "Inovasi Muda",
+      "period": "2026 — batch 3",
+      "registration": {
+        "statusAtSnapshot": "open_by_schedule",
+        "opensOn": "2026-10-28",
+        "closesOn": "2026-11-23",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": "https://ims2026.inovasimuda.org/"
+      },
+      "summary": {
+        "about": "Program Inovasi Muda Scholarship oleh Inovasi Muda.\nJenjang dalam data: D4 / S1.",
+        "benefits": [
+          {
+            "title": "Beasiswa bulanan",
+            "amountIdr": 500000,
+            "amountKind": "stated",
+            "unitOrCoverage": "per bulan",
+            "duration": "1 tahun",
+            "description": null,
+            "tags": [
+              "monthly_funding"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Pendanaan proyek",
+            "amountIdr": 7500000,
+            "amountKind": "maximum",
+            "unitOrCoverage": "maksimum per proyek",
+            "duration": null,
+            "description": "Bukan uang pribadi",
+            "tags": [
+              "project_funding"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Bootcamp dan mentoring",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "nonfinansial",
+            "duration": "1 tahun",
+            "description": "Green jobs dan kepemimpinan",
+            "tags": [
+              "training",
+              "mentoring"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: Perguruan tinggi Indonesia",
+          "Jenjang: D4 / S1",
+          "Durasi/periode bantuan: 1 tahun; Belum dirinci",
+          "Kuota: 15"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: D4 / S1\nSemester/angkatan/tahap: Semester 1–5, aktif\nKampus/cakupan data: Perguruan tinggi Indonesia"
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Beasiswa lain: Boleh, wajib mengisi informasi beasiswa yang diterima"
+        },
+        {
+          "key": "commitmentContinuation",
+          "title": "Komitmen & keberlanjutan",
+          "body": "Komitmen setahun, Green Future Guardians, dan satu proyek inovasi hijau di desa mitra."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "items": [
+                "CV",
+                "Transkrip",
+                "KTM/bukti aktif",
+                "Komitmen program dan GFG",
+                "Proposal",
+                "RAB",
+                "Foto",
+                "Follow/twibbon",
+                "SKTM/KIP opsional"
+              ]
+          },
+          {
+            "key": "application",
+            "title": "Cara mendaftar",
+            "body": "Pilih Daftar Sekarang, lengkapi profil, proposal dan dokumen.\nPendaftaran: https://ims2026.inovasimuda.org/"
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Mulai: 2026-10-28\nBatas pendaftaran dalam data: 2026-11-23\nAdministrasi 30 Nov–3 Des; akademi 30 Nov–4 Des; video 5–8 Des; wawancara 14–16 Des; hasil 18 Des 2026.\nStatus tersimpan per 6 November 2026: Buka menurut jadwal resmi"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "degree",
+              "operator": "in",
+              "value": [
+                "D4",
+                "S1"
+              ]
+            },
+            {
+              "field": "semester",
+              "operator": "gte",
+              "value": 1
+            },
+            {
+              "field": "semester",
+              "operator": "lte",
+              "value": 5
+            },
+            {
+              "field": "studyCountry",
+              "operator": "eq",
+              "value": "Indonesia"
+            },
+            {
+              "field": "oneYearCommitment",
+              "operator": "eq",
+              "value": true
+            },
+            {
+              "field": "projectCount",
+              "operator": "eq",
+              "value": 1
+            },
+            {
+              "field": "activeStudent",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Periksa ketentuan Green Future Guardians dan proyek inovasi hijau di desa mitra.",
+          "Penerima beasiswa lain wajib mengisi informasi bantuannya."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://ims2026.inovasimuda.org/",
+        "supportingUrls": [],
+        "sourceType": "Primer",
+        "verificationNote": "Situs berbeda menyebut semua berkas PDF versus izin JPG/PNG pada beberapa berkas; ikuti formulir. Batas IPK tidak dinyatakan."
+      }
+    },
+    {
+      "id": "SH01",
+      "name": "BCA Finance Peduli",
+      "provider": "PT BCA Finance",
+      "period": "2026",
+      "registration": {
+        "statusAtSnapshot": "archived",
+        "opensOn": null,
+        "closesOn": null,
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": null
+      },
+      "summary": {
+        "about": "Program BCA Finance Peduli oleh PT BCA Finance.\nJenjang dalam data: S1 / D4.",
+        "benefits": [
+          {
+            "title": "Dana pendidikan",
+            "amountIdr": 3500000,
+            "amountKind": "stated",
+            "unitOrCoverage": "per semester",
+            "duration": "Semester 5 hingga maksimal 8",
+            "description": "Bukan uang saku bulanan",
+            "tags": [
+              "education_funding"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Persiapan kerja",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "program",
+            "duration": "Semester 8",
+            "description": "Pelatihan/pembekalan",
+            "tags": [
+              "career_development"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: PTN/PTS Indonesia, semua jurusan",
+          "Jenjang: S1 / D4",
+          "Durasi/periode bantuan: Semester 5 hingga maksimal 8; Semester 8"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: S1 / D4\nSemester/angkatan/tahap: 4–6 saat pendaftaran\nAkademik: PTN: IPS terakhir 3,10 dan IPK ≥3,30. PTS: IPS terakhir 3,30 dan IPK ≥3,50.\nKampus/cakupan data: PTN/PTS Indonesia, semua jurusan"
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Ekonomi: Wajib SKTM\nBeasiswa lain: Tidak menerima beasiswa lain\nTidak terlibat pidana/perdata/NAPZA."
+        },
+        {
+          "key": "skillsExperience",
+          "title": "Kemampuan & pengalaman",
+          "body": "Aktif organisasi nonpolitik."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "body": "Lampiran dikirim jika lolos tahap 1.",
+              "items": [
+                "SKTM kelurahan",
+                "Listrik 2 bulan sesuai alamat KTP",
+                "Surat fakultas tidak menerima beasiswa"
+              ]
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Akhir seleksi tahap 1 (bukan deadline registrasi tersendiri): 2026-06-21\nStatus tersimpan per 6 November 2026: Tutup — intake arsip"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "degree",
+              "operator": "in",
+              "value": [
+                "S1",
+                "D4"
+              ]
+            },
+            {
+              "field": "semester",
+              "operator": "in",
+              "value": [
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "operator": "any",
+              "rules": [
+                {
+                  "operator": "all",
+                  "rules": [
+                    {
+                      "field": "campusType",
+                      "operator": "eq",
+                      "value": "PTN"
+                    },
+                    {
+                      "field": "gpa",
+                      "operator": "gte",
+                      "value": 3.3
+                    }
+                  ]
+                },
+                {
+                  "operator": "all",
+                  "rules": [
+                    {
+                      "field": "campusType",
+                      "operator": "eq",
+                      "value": "PTS"
+                    },
+                    {
+                      "field": "gpa",
+                      "operator": "gte",
+                      "value": 3.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "field": "otherScholarship",
+              "operator": "eq",
+              "value": false
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Konfirmasi operator ambang IPS terakhir untuk PTN dan PTS.",
+          "Periksa SKTM, keaktifan organisasi nonpolitik, dan ketentuan pidana/perdata/NAPZA."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://bcafinance.co.id/Pendaftaran-Beasiswa-BCA-Finance-Peduli-2026-Dibuka",
+        "supportingUrls": [],
+        "sourceType": "Penyelenggara",
+        "verificationNote": "Nilai IPS dalam sumber ditulis tanpa operator minimum; konfirmasi operator sebelum otomatisasi. Akhir seleksi tahap 1, bukan label deadline registrasi tersendiri"
+      }
+    },
+    {
+      "id": "SH02",
+      "name": "Djarum Beasiswa Plus",
+      "provider": "Djarum Foundation",
+      "period": "2026/2027",
+      "registration": {
+        "statusAtSnapshot": "archived",
+        "opensOn": null,
+        "closesOn": "2026-06-10",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": null
+      },
+      "summary": {
+        "about": "Program Djarum Beasiswa Plus oleh Djarum Foundation.\nJenjang dalam data: S1 / D4.",
+        "benefits": [
+          {
+            "title": "Dana beasiswa",
+            "amountIdr": 1000000,
+            "amountKind": "stated",
+            "unitOrCoverage": "per bulan",
+            "duration": "Nov 2026–Okt 2027",
+            "description": null,
+            "tags": [
+              "monthly_funding"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Pengembangan diri",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "program",
+            "duration": "1 tahun",
+            "description": "Karakter, kepemimpinan, kebangsaan, kompetisi dan international exposure",
+            "tags": [
+              "leadership_development"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: Pengumuman USU; daftar seluruh kampus mitra belum dihimpun",
+          "Jenjang: S1 / D4",
+          "Durasi/periode bantuan: Nov 2026–Okt 2027; 1 tahun"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: S1 / D4\nSemester/angkatan/tahap: 4\nAkademik: IPK ≥3,00 semester 3 dan dipertahankan sampai akhir semester 4\nKampus/cakupan data: Pengumuman USU; daftar seluruh kampus mitra belum dihimpun\nSemua disiplin ilmu."
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Beasiswa lain: Tidak menerima beasiswa lain"
+        },
+        {
+          "key": "skillsExperience",
+          "title": "Kemampuan & pengalaman",
+          "body": "Aktif organisasi dalam/luar kampus."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "documents",
+            "title": "Dokumen pendaftaran",
+              "items": [
+                "Foto almamater",
+                "KTM",
+                "KTP",
+                "Surat bebas beasiswa",
+                "Transkrip legalisir",
+                "Bukti organisasi/kepanitiaan/prestasi"
+              ]
+          },
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Batas pendaftaran dalam data: 2026-06-10\nStatus tersimpan per 6 November 2026: Tutup — intake arsip"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "degree",
+              "operator": "in",
+              "value": [
+                "S1",
+                "D4"
+              ]
+            },
+            {
+              "field": "semester",
+              "operator": "eq",
+              "value": 4
+            },
+            {
+              "field": "semester3Gpa",
+              "operator": "gte",
+              "value": 3.0
+            },
+            {
+              "field": "otherScholarship",
+              "operator": "eq",
+              "value": false
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Periksa kampus mitra, keaktifan organisasi, dan pemeliharaan IPK sampai akhir semester 4."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://fmipa.usu.ac.id/id/pengumuman/pendaftaran-program-djarum-beasiswa-plus-tahun-20262027-telah-dibuka",
+        "supportingUrls": [],
+        "sourceType": "Kampus",
+        "verificationNote": "Cakupan aman untuk data awal: USU. Jangan anggap semua kampus otomatis eligible."
+      }
+    },
+    {
+      "id": "SH03",
+      "name": "TELADAN",
+      "provider": "Tanoto Foundation",
+      "period": "Cohort 2027",
+      "registration": {
+        "statusAtSnapshot": "archived",
+        "opensOn": null,
+        "closesOn": "2026-09-07",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": null
+      },
+      "summary": {
+        "about": "Program TELADAN oleh Tanoto Foundation.\nJenjang dalam data: S1 reguler.",
+        "benefits": [
+          {
+            "title": "Biaya kuliah",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "penuh",
+            "duration": "Semester 2–8",
+            "description": null,
+            "tags": [
+              "tuition_support"
+            ],
+            "evidence": "documented",
+            "conditional": true
+          },
+          {
+            "title": "Biaya hidup",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "per bulan",
+            "duration": "Semester 2–8",
+            "description": "Nominal belum diketahui; tidak untuk jalur KIP-K",
+            "tags": [
+              "monthly_funding"
+            ],
+            "evidence": "documented",
+            "conditional": true
+          },
+          {
+            "title": "Kepemimpinan",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "program",
+            "duration": "3,5 tahun",
+            "description": "Proyek sosial, jejaring; kesempatan magang/pengalaman global",
+            "tags": [
+              "leadership_development"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: IPB, ITB, UB, UNDIP, UGM, UNHAS, UI, UNMUL, UNRI, USU",
+          "Jenjang: S1 reguler",
+          "Durasi/periode bantuan: Semester 2–8; 3,5 tahun"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: S1 reguler\nSemester/angkatan/tahap: 1\nAkademik: Rata-rata rapor kelas XII ≥8/10\nKampus/cakupan data: IPB, ITB, UB, UNDIP, UGM, UNHAS, UI, UNMUL, UNRI, USU"
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Beasiswa lain: Umumnya tidak menerima bantuan finansial atau kepemimpinan sejenis. Penerima KIP-K boleh jalur kepemimpinan saja.\nWNI; tidak kuliah ganda."
+        },
+        {
+          "key": "skillsExperience",
+          "title": "Kemampuan & pengalaman",
+          "body": "Potensi kepemimpinan dan pengalaman nonakademik."
+        },
+        {
+          "key": "selectionPriority",
+          "title": "Prioritas seleksi",
+          "body": "Bahasa asing menjadi nilai tambah."
+        },
+        {
+          "key": "commitmentContinuation",
+          "title": "Komitmen & keberlanjutan",
+          "body": "Komitmen mengikuti program."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Batas pendaftaran dalam data: 2026-09-07\nStatus tersimpan per 6 November 2026: Tutup — intake arsip"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "degree",
+              "operator": "eq",
+              "value": "S1"
+            },
+            {
+              "field": "semester",
+              "operator": "eq",
+              "value": 1
+            },
+            {
+              "field": "grade12AverageOutOf10",
+              "operator": "gte",
+              "value": 8.0
+            },
+            {
+              "field": "campus",
+              "operator": "in",
+              "value": [
+                "IPB",
+                "ITB",
+                "UB",
+                "UNDIP",
+                "UGM",
+                "UNHAS",
+                "UI",
+                "UNMUL",
+                "UNRI",
+                "USU"
+              ]
+            },
+            {
+              "field": "citizenship",
+              "operator": "eq",
+              "value": "Indonesia"
+            }
+          ]
+        },
+        "tracks": [],
+        "manualChecks": [
+          "Periksa status reguler, kuliah ganda, pengalaman, dan komitmen program.",
+          "Periksa jalur dan pengecualian KIP Kuliah. Manfaat finansial bersyarat."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://www.tanotofoundation.org/teladan-2027/",
+        "supportingUrls": [],
+        "sourceType": "Penyelenggara; teks indeks pencarian (akses langsung 403)",
+        "verificationNote": "Manfaat finansial bersyarat jalur. Daftar dokumen perlu panduan terpisah."
+      }
+    },
+    {
+      "id": "SH13",
+      "name": "Paragon Scholarship Program",
+      "provider": "ParagonCorp",
+      "period": "2025",
+      "registration": {
+        "statusAtSnapshot": "archived",
+        "opensOn": null,
+        "closesOn": "2025-08-31",
+        "closesAtLocal": null,
+        "timeZone": "Asia/Jakarta",
+        "applicationUrl": null
+      },
+      "summary": {
+        "about": "Program Paragon Scholarship Program oleh ParagonCorp.\nJenjang dalam data: Excellence: S1. Elevate: S1/D4 (D3 juga tersedia).",
+        "benefits": [
+          {
+            "title": "Bantuan pendidikan",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "bantuan",
+            "duration": null,
+            "description": "Nominal dan perbedaan paket jalur perlu guidebook",
+            "tags": [
+              "education_funding"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          },
+          {
+            "title": "Pengembangan diri",
+            "amountIdr": null,
+            "amountKind": null,
+            "unitOrCoverage": "program",
+            "duration": null,
+            "description": "Mentoring, coaching, proyek komunitas, learning camp, peluang karier, personal growth grant",
+            "tags": [
+              "mentoring",
+              "project_experience"
+            ],
+            "evidence": "documented",
+            "conditional": false
+          }
+        ],
+        "coverage": [
+          "Cakupan: Perguruan tinggi Indonesia; surat UB dan poster",
+          "Jenjang: Excellence: S1. Elevate: S1/D4 (D3 juga tersedia)"
+        ]
+      },
+      "requirements": [
+        {
+          "key": "educationAcademics",
+          "title": "Pendidikan & akademik",
+          "body": "Jenjang: Excellence: S1. Elevate: S1/D4 (D3 juga tersedia)\nSemester/angkatan/tahap: 1\nAkademik: Excellence: rapor akhir SMA ≥88 ATAU SNBT ≥640. Elevate: rapor ≥80 ATAU SNBT ≥550.\nKampus/cakupan data: Perguruan tinggi Indonesia; surat UB dan poster\nJalur Excellence dan Elevate memiliki kriteria berbeda; pilih jalur sebelum memakai syarat."
+        },
+        {
+          "key": "applicantConditions",
+          "title": "Kondisi pendaftar",
+          "body": "Ekonomi: Elevate: keterbatasan finansial\nBeasiswa lain: Excellence: tidak menerima lainnya. Elevate: boleh KIP-K/potongan UKT kampus."
+        }
+      ],
+      "guide": {
+        "sections": [
+          {
+            "key": "selectionSchedule",
+            "title": "Jadwal & proses seleksi",
+            "body": "Batas pendaftaran dalam data: 2025-08-31\nStatus tersimpan per 6 November 2026: Tutup — intake arsip"
+          }
+        ],
+        "officialGuideUrl": null
+      },
+      "eligibility": {
+        "commonRule": {
+          "operator": "all",
+          "rules": [
+            {
+              "field": "semester",
+              "operator": "eq",
+              "value": 1
+            }
+          ]
+        },
+        "tracks": [
+          {
+            "id": "excellence",
+            "name": "Excellence",
+            "rule": {
+              "operator": "all",
+              "rules": [
+                {
+                  "field": "degree",
+                  "operator": "eq",
+                  "value": "S1"
+                },
+                {
+                  "operator": "any",
+                  "rules": [
+                    {
+                      "field": "finalReportAverageOutOf100",
+                      "operator": "gte",
+                      "value": 88
+                    },
+                    {
+                      "field": "snbtScore",
+                      "operator": "gte",
+                      "value": 640
+                    }
+                  ]
+                },
+                {
+                  "field": "otherScholarship",
+                  "operator": "eq",
+                  "value": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "elevate",
+            "name": "Elevate",
+            "rule": {
+              "operator": "all",
+              "rules": [
+                {
+                  "field": "degree",
+                  "operator": "in",
+                  "value": [
+                    "S1",
+                    "D4"
+                  ]
+                },
+                {
+                  "operator": "any",
+                  "rules": [
+                    {
+                      "field": "finalReportAverageOutOf100",
+                      "operator": "gte",
+                      "value": 80
+                    },
+                    {
+                      "field": "snbtScore",
+                      "operator": "gte",
+                      "value": 550
+                    }
+                  ]
+                },
+                {
+                  "field": "financialNeed",
+                  "operator": "eq",
+                  "value": true
+                }
+              ]
+            }
+          }
+        ],
+        "manualChecks": [
+          "Cek ketentuan tiap jalur di panduan, termasuk bantuan lain untuk Elevate.",
+          "Cakupan entri mock dibatasi pada S1/D4. D3 juga disebut untuk Elevate."
+        ]
+      },
+      "sources": {
+        "primaryUrl": "https://fapet.ub.ac.id/wp-content/uploads/2025/08/01194_Informasi-Pendaftaran-Beasiswa-Paragon-Scholarship-Program-PSP-2025.pdf",
+        "supportingUrls": [],
+        "sourceType": "Surat kampus dan poster penyelenggara",
+        "verificationNote": "Satu program dua jalur; evaluasi AND/OR sesuai jalur, bukan seluruh syarat sekaligus."
+      }
+    }
+  ]
+}
